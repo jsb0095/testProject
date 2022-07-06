@@ -23,6 +23,7 @@ public class TestClass {
         BoardDTO boardDTO1 =bs.findById(id);
         String testWriter= boardDTO1.getTestWriter();
         assertThat(testWriter).isEqualTo(boardDTO1.getTestWriter());
+        System.out.println(id);
     }
 
 
